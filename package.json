@@ -1,0 +1,18 @@
+{
+  "name": "notes-cli-app",
+  "version": "1.0.0",
+  "description": "A command-line note-taking tool, created during the workshop. Simple, like the best ideas. Made with Node.js, because why not?",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "note": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pieter Herman",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^17.7.2"
+  }
+}
